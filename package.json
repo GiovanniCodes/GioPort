@@ -1,0 +1,16 @@
+{
+  "name": "gio_port",
+  "version": "1.0.0",
+  "description": "Responsive Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Giovanni Gaspard",
+  "license": "MIT",
+  "dependencies": {
+    "no": "0.0.1",
+    "node-sass": "^4.9.3"
+  },
+  "devDependencies": {}
+}
