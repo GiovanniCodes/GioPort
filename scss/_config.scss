@@ -1,0 +1,7 @@
+$primary-color:#444;
+$secondary-color: #75A1D0;
+$show-home-image:true;
+$background-opacity:0.9;
+@mixin easeOut {
+  transition: all 1.5s ease-out;
+}
