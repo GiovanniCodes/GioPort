@@ -1,11 +1,22 @@
 //Wide Screens
-@include mediaXL {}
+@include mediaXL {
+  .projects {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
 
 // Desktops and Laptops
-@include mediaLg {}
+@include mediaLg {
+  .projects {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 
 // Tablets and mall Laptops
 @include mediaMd {
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
   main {
     align-items: center;
     text-align: center;
@@ -37,10 +48,17 @@
     width: 100px;
     height: 100px;
   }
+  .about-info {
+    grid-template-areas: 'bioimage' 'bio' 'job-1' 'job-2' 'job-3';
+    grid-template-columns: 1fr;
+  }
 }
 
 //Smart Phones
 @include mediaSm {
+  .projects {
+    grid-template-columns: 1fr;
+  }
   manin#home h1 {
     margin-top: 10vh;
   }
