@@ -3,14 +3,19 @@
   "version": "1.0.0",
   "description": "Responsive Portfolio Website",
   "main": "index.js",
+  "homepage": "https://GiovanniCodes.github.io/GioPort",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Giovanni Gaspard",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "no": "0.0.1",
-    "node-sass": "^4.9.3"
+    "node-sass": "^4.9.3",
+    "nom": "0.0.3",
+    "npm": "^6.4.0"
   },
   "devDependencies": {}
 }
